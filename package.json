@@ -4,6 +4,7 @@
   "private": true,
   "host": "0.0.0.0",
   "port": "3300",
+  "homepage": "https://becarchal.github.io/my-antd-ts-app/",
   "dependencies": {
     "antd": "^2.13.10",
     "react": "^16.2.0",
@@ -27,7 +28,7 @@
     "analyze": "source-map-explorer build/static/js/main.*",
     "web:s": "serve -s build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d master build"
+    "deploy": "gh-pages -d build"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.2.16",
